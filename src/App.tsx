@@ -18,11 +18,11 @@ const routes = createBrowserRouter([
     path: "/",
     element: <Layout />,
     children: [
-      { path: "/", element: <Home /> },
-      { path: "/products", element: <Products /> },
-      { path: "/products/:slug", element: <ProductDetail /> },
-      { path: "/about", element: <About /> },
-      { path: "/contact", element: <Contact /> },
+      { path: "", element: <Home /> },
+      { path: "products", element: <Products /> },
+      { path: "products/:slug", element: <ProductDetail /> },
+      { path: "about", element: <About /> },
+      { path: "contact", element: <Contact /> },
     ],
   },
 ]);
