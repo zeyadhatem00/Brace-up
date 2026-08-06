@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { ScrollToTop } from "../App";
 
 export default function Logo({
   variant = "dark",
@@ -8,6 +9,7 @@ export default function Logo({
   const color = variant === "light" ? "text-cream" : "text-forest";
   return (
     <Link
+      onClick={ScrollToTop}
       to="/"
       className="flex items-center gap-3 group"
       aria-label="Brace up home"

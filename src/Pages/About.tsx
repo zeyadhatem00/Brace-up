@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 import craftWorkshop from "../assets/craft-workshop.webp";
+import { ScrollToTop } from "../App";
 const values = [
   {
     title: "Materials that last",
@@ -103,6 +104,7 @@ export default function About() {
             Find the piece that becomes yours
           </h2>
           <Link
+            onClick={ScrollToTop}
             to="/products"
             className="group inline-flex items-center gap-2 bg-cream px-8 py-4 text-sm tracking-wide-sm uppercase text-forest transition-colors hover:bg-silver-light"
           >

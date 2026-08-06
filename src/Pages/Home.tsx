@@ -4,6 +4,8 @@ import { products } from "../data/products";
 import ProductCard from "../components/Productcard";
 import heroBracelet from "../assets/hero-bracelet.webp";
 import lifestyleWrist from "../assets/lifestyle-wrist.webp";
+import { ScrollToTop } from "../App";
+
 const features = [
   { icon: Award, title: "Premium Quality", sub: "925 sterling silver" },
   { icon: Droplets, title: "Water Resistant", sub: "Wear it every day" },
@@ -32,6 +34,7 @@ export default function Home() {
             </p>
             <div className="mt-9 flex flex-wrap gap-4">
               <Link
+                onClick={ScrollToTop}
                 to="/products"
                 className="group inline-flex items-center gap-2 bg-cream px-7 py-3.5 text-sm tracking-wide-sm uppercase text-forest transition-colors hover:bg-silver-light"
               >
@@ -42,6 +45,7 @@ export default function Home() {
                 />
               </Link>
               <Link
+                onClick={ScrollToTop}
                 to="/about"
                 className="inline-flex items-center gap-2 border border-cream/40 px-7 py-3.5 text-sm tracking-wide-sm uppercase text-cream transition-colors hover:bg-cream/10"
               >
@@ -103,6 +107,7 @@ export default function Home() {
             </h2>
           </div>
           <Link
+            onClick={ScrollToTop}
             to="/products"
             className="hidden items-center gap-2 text-sm tracking-wide-sm uppercase text-forest hover:text-forest-light sm:inline-flex"
           >
@@ -142,6 +147,7 @@ export default function Home() {
               let it stand alone.
             </p>
             <Link
+              onClick={ScrollToTop}
               to="/products/emerald-braided-cord"
               className="mt-8 inline-flex items-center gap-2 bg-forest px-7 py-3.5 text-sm tracking-wide-sm uppercase text-cream transition-colors hover:bg-forest-dark"
             >

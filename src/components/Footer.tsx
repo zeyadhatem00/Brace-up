@@ -42,18 +42,46 @@ export default function Footer() {
           <FooterCol
             title="Shop"
             links={[
-              { label: "All Bracelets", to: "/products" },
-              { label: "Cord", to: "/products" },
-              { label: "Silver", to: "/products" },
-              { label: "Leather", to: "/products" },
+              {
+                label: "All Bracelets",
+                to: "/products",
+                onClick: () => window.scrollTo(0, 0),
+              },
+              {
+                label: "Cord",
+                to: "/products",
+                onClick: () => window.scrollTo(0, 0),
+              },
+              {
+                label: "Silver",
+                to: "/products",
+                onClick: () => window.scrollTo(0, 0),
+              },
+              {
+                label: "Leather",
+                to: "/products",
+                onClick: () => window.scrollTo(0, 0),
+              },
             ]}
           />
           <FooterCol
             title="Company"
             links={[
-              { label: "About Us", to: "/about" },
-              { label: "Contact", to: "/contact" },
-              { label: "Craftsmanship", to: "/about" },
+              {
+                label: "About Us",
+                to: "/about",
+                onClick: () => window.scrollTo(0, 0),
+              },
+              {
+                label: "Contact",
+                to: "/contact",
+                onClick: () => window.scrollTo(0, 0),
+              },
+              {
+                label: "Bracelets",
+                to: "/products",
+                onClick: () => window.scrollTo(0, 0),
+              },
             ]}
           />
 
@@ -91,7 +119,7 @@ function FooterCol({
   links,
 }: {
   title: string;
-  links: { label: string; to: string }[];
+  links: { label: string; to: string; onClick?: () => void }[];
 }) {
   return (
     <div>
@@ -101,6 +129,7 @@ function FooterCol({
           <li key={l.label}>
             <Link
               to={l.to}
+              onClick={l.onClick}
               className="text-sm text-cream/70 transition-colors hover:text-cream"
             >
               {l.label}

@@ -2,6 +2,7 @@ import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import Logo from "./Logo";
+import { ScrollToTop } from "../App";
 
 const nav = [
   { label: "Home", to: "/" },
@@ -29,6 +30,7 @@ export default function Header() {
           <nav className="hidden items-center gap-9 lg:flex">
             {nav.map((n) => (
               <NavLink
+                onClick={ScrollToTop}
                 key={n.to}
                 to={n.to}
                 className={linkClass}
