@@ -1,16 +1,23 @@
 export type Product = {
-  id: string
-  slug: string
-  name: string
-  price: number
-  category: string
-  color: string
-  image: string
-  badge?: string
-  bestSeller?: boolean
-  description: string
-  details: string[]
-}
+  id: string;
+  slug: string;
+  name: string;
+  price: number;
+  category: string;
+  color: string;
+  image: string;
+  badge?: string;
+  bestSeller?: boolean;
+  description: string;
+  details: string[];
+};
+
+import greenBraided from "../assets/green-braided.webp";
+import silverChain from "../assets/silver-chain.webp";
+import blackBeaded from "../assets/black-beaded.webp";
+import tanLeather from "../assets/tan-leather.webp";
+import navyCord from "../assets/navy-cord.webp";
+import heroBracelet from "../assets/hero-bracelet.webp";
 
 export const products: Product[] = [
   {
@@ -20,7 +27,7 @@ export const products: Product[] = [
     price: 1299,
     category: "Cord",
     color: "Forest Green",
-    image: "../assets/green-braided.webp",
+    image: greenBraided,
     badge: "New Arrival",
     bestSeller: true,
     description:
@@ -39,7 +46,7 @@ export const products: Product[] = [
     price: 1899,
     category: "Chain",
     color: "Silver",
-    image: "../assets/silver-chain.webp",
+    image: silverChain,
     badge: "Signature",
     description:
       "A refined polished silver chain with a minimalist charm. Understated shine that pairs with everything from linen to leather.",
@@ -57,7 +64,7 @@ export const products: Product[] = [
     price: 1149,
     category: "Beaded",
     color: "Matte Black",
-    image: "../assets/black-beaded.webp",
+    image: blackBeaded,
     bestSeller: true,
     description:
       "Natural matte black stone beads anchored by a single polished silver accent. Grounding, tactile, and effortlessly modern.",
@@ -75,7 +82,7 @@ export const products: Product[] = [
     price: 1399,
     category: "Leather",
     color: "Tan",
-    image: "../assets/tan-leather.webp",
+    image: tanLeather,
     badge: "New Arrival",
     description:
       "Braided full-grain tan leather with a brushed silver magnetic clasp. Warm, characterful, and built to age beautifully.",
@@ -93,7 +100,7 @@ export const products: Product[] = [
     price: 1249,
     category: "Cord",
     color: "Navy",
-    image: "../assets/navy-cord.webp",
+    image: navyCord,
     description:
       "Deep navy braided cord with polished silver adjustable clasps. A quiet alternative to the emerald, equally at home day or night.",
     details: [
@@ -110,7 +117,7 @@ export const products: Product[] = [
     price: 1499,
     category: "Cord",
     color: "Forest Green",
-    image: "../assets/hero-bracelet.webp",
+    image: heroBracelet,
     badge: "Best Seller",
     bestSeller: true,
     description:
@@ -122,6 +129,7 @@ export const products: Product[] = [
       "Adjustable 15–22 cm",
     ],
   },
-]
+];
 
-export const getProduct = (slug: string) => products.find((p) => p.slug === slug)
+export const getProduct = (slug: string) =>
+  products.find((p) => p.slug === slug);
