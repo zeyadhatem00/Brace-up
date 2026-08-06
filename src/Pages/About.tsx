@@ -27,7 +27,7 @@ export default function About() {
   return (
     <>
       <section className="bg-forest text-cream">
-        <div className="mx-auto max-w-3xl px-5 py-20 text-center lg:px-8 lg:py-28">
+        <div className="mx-auto fade max-w-3xl px-5 py-20 text-center lg:px-8 lg:py-28">
           <p className="text-xs tracking-luxe uppercase text-cream/60">
             Our Story
           </p>

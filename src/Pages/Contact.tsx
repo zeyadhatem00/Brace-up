@@ -11,7 +11,7 @@ export default function Contact() {
   return (
     <>
       <section className="bg-forest text-cream">
-        <div className="mx-auto max-w-3xl px-5 py-16 text-center lg:px-8 lg:py-20">
+        <div className="mx-auto fade max-w-3xl px-5 py-16 text-center lg:px-8 lg:py-20">
           <p className="text-xs tracking-luxe uppercase text-cream/60">
             Get in touch
           </p>

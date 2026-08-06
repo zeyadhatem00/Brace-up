@@ -50,7 +50,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="relative">
+          <div className="relative fade">
             <div className="overflow-hidden">
               <img
                 src={heroBracelet}

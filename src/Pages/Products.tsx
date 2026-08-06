@@ -18,7 +18,7 @@ export default function Products() {
   return (
     <>
       <section className="bg-forest text-cream">
-        <div className="mx-auto max-w-7xl px-5 py-16 lg:px-8 lg:py-20">
+        <div className="mx-auto fade max-w-7xl px-5 py-16 lg:px-8 lg:py-20">
           <p className="text-xs tracking-luxe uppercase text-cream/60">Shop</p>
           <h1 className="mt-4 font-serif text-5xl text-balance">
             All Bracelets

@@ -3,7 +3,7 @@ import type { Product } from "../data/products";
 
 export default function ProductCard({ product }: { product: Product }) {
   return (
-    <Link to={`/products/${product.slug}`} className="group block">
+    <Link to={`/products/${product.slug}`} className="group block fade">
       <div className="relative overflow-hidden bg-cream-dark">
         {product.badge && (
           <span className="absolute left-3 top-3 z-10 bg-forest px-3 py-1 text-[10px] tracking-wide-sm uppercase text-cream">
