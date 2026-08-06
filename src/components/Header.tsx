@@ -22,9 +22,6 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50">
-      {/* <div className="bg-forest text-cream text-center text-xs tracking-luxe uppercase py-2.5">
-        Free delivery on orders over EGP 999
-      </div> */}
       <div className="bg-cream/90 backdrop-blur border-b border-border">
         <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-5 py-4 lg:px-8">
           <Logo />

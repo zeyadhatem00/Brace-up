@@ -114,65 +114,14 @@ export default function ProductDetail() {
             ))}
           </div>
 
-          {/* Size */}
-          {/* <div className="mt-8">
-            <label className="text-xs tracking-wide-sm uppercase text-muted">Size</label>
-            <div className="relative mt-2">
-              <select
-                value={size}
-                onChange={(e) => setSize(e.target.value)}
-                className="w-full appearance-none border border-border bg-cream px-4 py-3.5 text-sm text-foreground focus:border-forest focus:outline-none"
-              >
-                <option>Adjustable</option>
-                <option>Small (15–17 cm)</option>
-                <option>Medium (17–19 cm)</option>
-                <option>Large (19–22 cm)</option>
-              </select>
-              <ChevronRight className="pointer-events-none absolute right-4 top-1/2 h-4 w-4 -translate-y-1/2 rotate-90 text-muted" />
-            </div>
-          </div> */}
-
-          {/* Quantity */}
-          {/* <div className="mt-6 flex items-center gap-4">
-            <span className="text-xs tracking-wide-sm uppercase text-muted">Quantity</span>
-            <div className="flex items-center border border-border">
-              <button
-                onClick={() => setQty((q) => Math.max(1, q - 1))}
-                aria-label="Decrease quantity"
-                className="grid h-11 w-11 place-items-center text-forest hover:bg-cream-dark"
-              >
-                <Minus className="h-4 w-4" />
-              </button>
-              <span className="w-10 text-center text-sm">{qty}</span>
-              <button
-                onClick={() => setQty((q) => Math.min(10, q + 1))}
-                aria-label="Increase quantity"
-                className="grid h-11 w-11 place-items-center text-forest hover:bg-cream-dark"
-              >
-                <Plus className="h-4 w-4" />
-              </button>
-            </div>
-          </div> */}
-
           {/* Actions */}
           <div className="mt-8 space-y-3">
-            {/* <button
-              onClick={handleAdd}
-              className="flex w-full items-center justify-center gap-2 bg-forest py-4 text-sm tracking-wide-sm uppercase text-cream transition-colors hover:bg-forest-dark"
-            >
-              {added ? <Check className="h-5 w-5" /> : <ShoppingBag className="h-5 w-5" strokeWidth={1.5} />}
-              {added ? "Added to Bag" : "Add to Bag"}
-            </button> */}
             <a href="https://www.instagram.com/braceup.eg/" target="_blank">
               {" "}
               <button className="w-full border cursor-pointer border-forest py-4 text-sm tracking-wide-sm uppercase text-forest transition-colors hover:bg-forest hover:text-cream">
-                order throgh instagram
+                order through instagram
               </button>
             </a>
-            {/* <button className="flex w-full items-center justify-center gap-2 py-3 text-sm tracking-wide-sm uppercase text-muted transition-colors hover:text-forest">
-              <Heart className="h-5 w-5" strokeWidth={1.5} />
-              Add to Wishlist
-            </button> */}
           </div>
 
           {/* Details */}
