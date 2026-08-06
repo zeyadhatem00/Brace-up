@@ -52,7 +52,7 @@ export default function Home() {
           <div className="relative">
             <div className="overflow-hidden">
               <img
-                src="/products/hero-bracelet.webp"
+                src="../assets/hero-bracelet.webp"
                 alt="Emerald braided cord bracelet with polished silver clasp"
                 className="w-full object-cover"
                 width={1600}
@@ -120,7 +120,7 @@ export default function Home() {
       <section className="bg-cream-dark">
         <div className="mx-auto grid max-w-7xl items-center gap-0 lg:grid-cols-2">
           <img
-            src="/products/lifestyle-wrist.webp"
+            src="../assets/lifestyle-wrist.webp"
             alt="Wrist wearing a forest green braided bracelet"
             className="h-full w-full object-cover"
             width={1600}

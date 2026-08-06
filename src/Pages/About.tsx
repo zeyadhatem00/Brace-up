@@ -45,7 +45,7 @@ export default function About() {
       {/* Craft image + intro */}
       <section className="mx-auto grid max-w-7xl items-center gap-0 lg:grid-cols-2">
         <img
-          src="/products/craft-workshop.webp"
+          src="../assets/craft-workshop.webp"
           alt="Artisan braiding a bracelet at a workbench"
           className="h-full w-full object-cover"
         />

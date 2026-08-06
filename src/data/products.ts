@@ -20,7 +20,7 @@ export const products: Product[] = [
     price: 1299,
     category: "Cord",
     color: "Forest Green",
-    image: "/products/green-braided.webp",
+    image: "../assets/green-braided.webp",
     badge: "New Arrival",
     bestSeller: true,
     description:
@@ -39,7 +39,7 @@ export const products: Product[] = [
     price: 1899,
     category: "Chain",
     color: "Silver",
-    image: "/products/silver-chain.webp",
+    image: "../assets/silver-chain.webp",
     badge: "Signature",
     description:
       "A refined polished silver chain with a minimalist charm. Understated shine that pairs with everything from linen to leather.",
@@ -57,7 +57,7 @@ export const products: Product[] = [
     price: 1149,
     category: "Beaded",
     color: "Matte Black",
-    image: "/products/black-beaded.webp",
+    image: "../assets/black-beaded.webp",
     bestSeller: true,
     description:
       "Natural matte black stone beads anchored by a single polished silver accent. Grounding, tactile, and effortlessly modern.",
@@ -75,7 +75,7 @@ export const products: Product[] = [
     price: 1399,
     category: "Leather",
     color: "Tan",
-    image: "/products/tan-leather.webp",
+    image: "../assets/tan-leather.webp",
     badge: "New Arrival",
     description:
       "Braided full-grain tan leather with a brushed silver magnetic clasp. Warm, characterful, and built to age beautifully.",
@@ -93,7 +93,7 @@ export const products: Product[] = [
     price: 1249,
     category: "Cord",
     color: "Navy",
-    image: "/products/navy-cord.webp",
+    image: "../assets/navy-cord.webp",
     description:
       "Deep navy braided cord with polished silver adjustable clasps. A quiet alternative to the emerald, equally at home day or night.",
     details: [
@@ -110,7 +110,7 @@ export const products: Product[] = [
     price: 1499,
     category: "Cord",
     color: "Forest Green",
-    image: "/products/hero-bracelet.webp",
+    image: "../assets/hero-bracelet.webp",
     badge: "Best Seller",
     bestSeller: true,
     description:
