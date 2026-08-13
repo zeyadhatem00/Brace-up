@@ -4,6 +4,7 @@ import { Menu, X } from "lucide-react";
 import Logo from "./Logo";
 import { ScrollToTop } from "../App";
 
+
 const nav = [
   { label: "Home", to: "/" },
   { label: "Bracelets", to: "/products" },
@@ -63,9 +64,12 @@ export default function Header() {
             {nav.map((n) => (
               <li key={n.to}>
                 <NavLink
+                  onClick={() => {
+                    ScrollToTop();
+                    setOpen(false);
+                  }}
                   to={n.to}
                   end={n.to === "/"}
-                  onClick={() => setOpen(false)}
                   className={({ isActive }) =>
                     `block rounded-md px-3 py-3 text-sm tracking-wide-sm uppercase ${
                       isActive
