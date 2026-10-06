@@ -4,7 +4,7 @@ Brace up is a React storefront for browsing handcrafted bracelets in braided cor
 
 - **Live site:** [brace-up.vercel.app](https://brace-up.vercel.app)
 - **Default branch:** `main`
-- **Repository:** [zeyadhatem00/Brace-up](https://github.com/zeyadhatem00/Brace-up)
+- **Repository:** [zeyadhatem00/Brace-up](https://github.com/zeyadhatem00/brace-up)
 
 ## What is implemented
 
